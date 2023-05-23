@@ -100,4 +100,16 @@ void Engine::UpdateObjects(float deltaTime)
 	}
 }
 
+void Engine::Render()
+{
+	_window->clear();
+
+	for (size_t i = 0; i < _drawables.size(); i++)
+	{
+		_window->draw(*_drawables[i]);
+	}
+
+	_window->display();
+}
+
 

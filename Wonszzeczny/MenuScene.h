@@ -11,7 +11,7 @@ public:
 	void Update(float deltaTime);
 
 private:
-	void PrintGameTitle(Engine* engine, sf::Vector2i& windowSize);
+	void DisplayGameTitle(Engine* engine, sf::Vector2i& windowSize);
 // TODO:
 //private:
 //	std::shared_ptr<Snake> _snake;

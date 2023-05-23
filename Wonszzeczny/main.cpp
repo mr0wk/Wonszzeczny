@@ -15,6 +15,7 @@ int main()
 		sf::Time deltaTime = clock.restart();
 
 		game->UpdateObjects(deltaTime.asSeconds());
+		game->Render();
 	}
 }
 

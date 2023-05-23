@@ -18,6 +18,7 @@ public:
 	void AddDrawableToRender(std::shared_ptr<sf::Drawable> drawable);
 	bool IsRunning() const;
 	void UpdateObjects(float deltaTime);
+	void Render();
 
 private:
 	static Engine* _instance;
